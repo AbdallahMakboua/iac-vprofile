@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "abdallahmakboua"
+    bucket = "gitopsmakboua"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
